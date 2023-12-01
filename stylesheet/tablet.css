@@ -1,0 +1,158 @@
+.container{
+    max-width: 1950px;
+    padding: 0 2rem;
+}
+
+/*SECTION HEADER*/
+.box_header{
+    height: 8rem;
+}
+.box_logo{
+    width: 100%;
+    max-width:40.4rem ;
+    height: 4.2rem;
+}
+.box_logo img{
+    width: 12rem;
+    max-width: 12rem;
+}
+.box_logo input{
+    max-width: 26rem;
+}
+.button_login{
+    max-width: 16.6rem;
+    width: 100%;
+    height: 4rem;
+}
+
+/*SECTION FORMULARIO LOGIN*/
+.box_form_login{
+    width: 27.5;
+    height: 18.9rem;
+    margin:12rem auto;
+    padding: 0 1.5rem;
+    font-size: 19px;
+}
+.box_form_login input{
+    height: 5rem;
+}
+.box_form_login button{
+    width: 10.9rem;
+    height: 4rem;
+    margin: 0 auto;
+}
+
+/*SECTION IMFORMATION AND SUPORT*/
+.box_information{
+padding-top:2.5rem;
+}
+.box_information  picture img{
+    width: 12rem;
+}
+.form_suport{
+    width: 60%;
+}
+nav{
+    flex-direction: column;
+    width: 40%;
+}
+nav ul li a{
+    line-height: 2;
+}
+.form_suport input {
+width: 100%;
+height:4rem ;
+margin-top:1rem ;
+}
+.form_suport input:nth-child(2){
+height: 6rem;
+}
+.form_suport button {
+width:16.5rem;
+height: 5.1rem;
+}
+
+
+   /*FOOTER*/
+.box_footer{
+    height: 8rem;
+}
+.box_footer h5 {
+font-size: 1.3rem;
+}
+.box_footer .box_networks a{
+font-size: 22px;
+margin-left: .5rem;
+}
+
+/*SECTION PRODUCTS*/
+
+/*BOX BANNER*/
+.box_banner{
+    height: 27.2rem;
+    line-height: 1.5;
+}
+.box_text_banner h1{
+    font-size: 3rem;
+}
+.box_text_banner h2{
+    font-size: 2rem;
+}
+.box_text_banner button{
+    color: var(--white);
+    background: var(--blue);
+    padding: 1rem 2rem;
+}
+/*BOX_FORM_PRODUCTS*/
+.box_form_products {
+    padding: 3.1rem 2rem ;
+     }
+     .box_form_products h3{
+        font-size: 2.2rem;
+    }     
+ .box_form_products form{
+    width: 100%;
+    max-width: 70.1rem;
+     height: 47.9rem;
+ }
+ .box_form_products form input{
+    height: 5.3rem;
+    }
+    .box_form_products form input:nth-child(6){
+    height: 7rem;
+    }
+    .box_form_products form button{
+        background: var(--blue);
+        color: var(--white);
+        height: 5rem;
+    }
+#containerData{
+grid-template-columns: repeat(auto-fill, minmax(170px,1fr));
+gap:20px;
+}
+.productCart{
+display:flex;
+flex-direction:column;
+
+}
+
+.containerProducts{
+grid-template-columns: repeat(auto-fill, minmax(164px,1fr));
+gap:30px;
+}
+
+.titleProductsSimilares{
+font-size:1rem;
+}
+.productById img {
+width:50%;
+}
+.productById .productDescriptionById{
+height:min-content;
+width:50%;
+align-self:center;
+margin-left:2rem;
+}
+.productDescriptionById h3{
+font-size:3rem
+}
